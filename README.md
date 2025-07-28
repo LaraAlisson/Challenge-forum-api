@@ -91,13 +91,14 @@ O `Challenge.forum.api` é uma **API REST** robusta, desenvolvida em **Java 21**
 
 ## ✅ Resumo das Rotas
 
-| Método   | Endpoint         | Descrição                            | Autenticação |
-| :------- | :--------------- | :----------------------------------- | :----------- |
-| `POST`   | `/topicos`       | Cadastrar novo tópico                | Sim          |
-| `GET`    | `/topicos`       | Listar todos os tópicos (paginado)   | Sim          |
-| `GET`    | `/topicos/{id}`  | Buscar tópico por ID                 | Sim          |
-| `PUT`    | `/topicos/{id}`  | Atualizar tópico (somente o autor)   | Sim          |
-| `DELETE` | `/topicos/{id}`  | Deletar tópico (somente o autor)     | Sim          |
+| Método   | Endpoint               | Descrição                            | Autenticação |
+| :------- | :--------------------- | :----------------------------------- | :----------- |
+| `POST`   | `/topicos`             | Cadastrar novo tópico                | Sim          |
+| `GET`    | `/topicos`             | Listar todos os tópicos (paginado)   | Sim          |
+| `GET`    | `/topicos/{id}`        | Buscar tópico por ID                 | Sim          |
+| `PUT`    | `/topicos/{id}`        | Atualizar tópico (somente o autor)   | Sim          |
+| `PUT`    | `/topicos/status{id}`  | Desativa tópico (somente o autor)    | Sim          |
+| `DELETE` | `/topicos/{id}`        | Deletar tópico (somente o autor)     | Sim          |
 
 -----
 
